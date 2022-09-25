@@ -15,7 +15,7 @@
 	"scripts": [
 		"scripts/hook.js"
 	],	
-	"id": "elevation-drag-ruler"
+	"id": "elevation-drag-ruler",
 	"url": "https://github.com/lucasmiranda2711/ElevationDragRuler",
 	"download": "https://github.com/lucasmiranda2711/ElevationDragRuler/archive/v1.6.5.zip",
 	"manifest": "https://raw.githubusercontent.com/lucasmiranda2711/ElevationDragRuler/main/module.json",
