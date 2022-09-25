@@ -359,7 +359,7 @@ Hooks.once('dragRuler.ready', (SpeedProvider) => {
 		getCostForStep(token, area, options={}) {
 			const movementSpeed = EDR_movementMode[token.id];
 			const settingFlyingElevation = this.getSetting('flyingElevation');
-			const tokenDocument = token.data.document;
+			const tokenDocument = token.document;
 
 			//Grabs a token's configured options for ignoring difficult terrain.
 			const configuredEnvironments = TerrainConfig.getConfiguredEnvironments(tokenDocument)
